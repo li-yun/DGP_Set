@@ -1,12 +1,19 @@
-# DGP_Set: DBSCAN-GMM-PCA-based uncertainty set development
-This project contains the Python-based toolkit for generating data-driven uncertainty set, and tutorial for using this toolkit.
+# Data-Driven Uncertainty Set via DBSCAN, Gaussian Mixture Models and PCA. (DGP)
 
-Content:
+## Overview
+This project aims to provide a python toolbox to implement the DGP algorithm developed in "Li, Y., Yorke-Smith, N., & Keviczky, T. (2024). Machine learning enabled uncertainty set for data-driven robust optimization. Journal of Process Control, 144, 103339.".
 
-1. dpg_set.py: python-based source file for the toolkit.
-2. quickstart_dgp: jupyter-notebook file of the tutorial.
-3. Appendix_JPC: supporting material for Remark 8 of paper "Machine learning enabled uncertainty set for data-driven robust optimization"
+## Features
+- automatic construction for data-driven uncertainty sets based on the DGP algorithm
+- supports both training and evaluation
+- visualization is possible for 2D uncertainty sets
+- reproducible experiments
 
-LISTENCE: MIT listence
+## Requirements
+- Python >= 3.8
+All required Python packages are specified in 'setup.py'
 
-
+Install dependencies by:
+```bash
+python -m pip install .
+>>>>>>> 9e52008 (Initial commit)
