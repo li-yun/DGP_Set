@@ -8,8 +8,8 @@ the source files of the python package are:
 - src
 - tests
 - setup.py
-supplymentary materials for the JPC paper is: Appendix_JPC.pdf
-the tutorial files for using the "ddset" package is: quickstart.ipynb
+### supplymentary materials for the JPC paper is: Appendix_JPC.pdf
+### the tutorial files for using the "ddset" package is: quickstart.ipynb
 
 ## Features
 - automatic construction for data-driven uncertainty sets based on the DGP algorithm
